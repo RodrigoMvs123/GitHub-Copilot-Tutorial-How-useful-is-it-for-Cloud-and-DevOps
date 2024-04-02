@@ -2,6 +2,8 @@
 
 https://www.youtube.com/watch?v=9JGONx_X4ho 
 
+https://raw.githubusercontent.com/RodrigoMvs123/GitHub-Copilot-Tutorial-How-useful-is-it-for-Cloud-and-DevOps/main/README.md
+
 What is Github Copilot
 
 Ai assistant for coding - developed by GitHub

@@ -1,4 +1,5 @@
-# GitHub-Copilot-Tutorial-How-useful-is-it-for-Cloud-and-DevOps
+
+## GitHub-Copilot-Tutorial-How-useful-is-it-for-Cloud-and-DevOps
 
 https://www.youtube.com/watch?v=9JGONx_X4ho 
 
@@ -6,13 +7,14 @@ https://raw.githubusercontent.com/RodrigoMvs123/GitHub-Copilot-Tutorial-How-usef
 
 https://github.com/RodrigoMvs123/GitHub-Copilot-Tutorial-How-useful-is-it-for-Cloud-and-DevOps/blame/main/README.md
 
-What is Github Copilot
+
+## What is Github Copilot ?
 
 Ai assistant for coding - developed by GitHub
 GitHub is available as an extension in your code editor or IDE
 Helps you write your code within your editor 
 
-How GitHub Copilot works 
+How GitHub Copilot works ?
 
 Context-aware and specifically designed for software development 
 
@@ -33,6 +35,7 @@ Highlighted code
 Previous questions and responses
 
 How does it work behind the scenes ?
+
 Powered by a Generative AI Model developed by GitHub, OpenAI and Microsoft
 LLM = Large Language Model trained to understand and replicate the syntax, patterns and paradigms in human-generated code
 Trained on billions of lines of code in public repositories
@@ -54,39 +57,58 @@ Constructs a prompt from your context
 Code Suggestions
 Tries to give you recommendation and useful next steps
 
+## You will use
+```bash
 GitHub Copilot
 Visual Studio Code
-Pulumi / Python ( Infrastructure as a Code Tool )
+Pulumi / Python ( Infrastructure as a Code Tool ) 
+```
 
 AWS - https://aws.amazon.com/ 
+
 Pulumi Installed - https://www.pulumi.com/docs/install/ 
+
 Install Python - https://www.python.org/downloads/ 
+
 Download Visual Studio Code - https://code.visualstudio.com/download 
+
 Setup GitHub Copilot - https://github.com/features/copilot 
+
 Visual Studio Code - GitHub Copilot Extension
 
-Visual Studio Code
+### Visual Studio Code
 Terminal
+```bash
 pulumi new aws-python
+```
 
+## Pulumi UI
 https://app.pulumi.com/account/tokens 
 
-Pulumi UI
-
 Personal Access Token 
+
 Create Token
-aws-python ( Copy )
+
+- aws-python ( Copy )
 
 Terminal 
-Past
+
+( Past )  
 
 project name (copilot-pulumi):
+
 …
+
 …
+
 …
+
 …
+
 eu-west-2
 
+## Source Code
+```javascript
 Visual Studio Code
 Explorer
 Open Editors
@@ -94,10 +116,15 @@ test.py
 
 test.py
 Press x I to ask GitHub Copilot Chat to do something. Start typing to dismiss 
+```
 
+## Copilot 
 ctrl + I
+
 Ask Copilot or type / for commands
 
+## Source Code
+```javascript
 Visual Studio Code
 Explorer
 Open Editors
@@ -117,6 +144,9 @@ pulumi.export('bucket_name', bucket.id)
 Github Copilot Chat
 create 10 s3 buckets with unique names
 
+```
+
+```javascript
 Visual Studio Code
 Explorer
 Open Editors
@@ -133,7 +163,9 @@ for i in range(1, 11):
 
     # Export the name of the bucket 
 pulumi.export(f'bucket_name_{i}', bucket.id)
+```
 
+```javascript
 Visual Studio Code
 Explorer
 Open Editors
@@ -161,8 +193,9 @@ for i in range(5):
             "Name": f"my-instance-{i}",
         })
     pulumi.export(f"instance_{i}_id", instance.id)
+```
 
-Limitations
+## Limitations
 
 GitHub Copilot is not up-to-date
 If tools release new versions, Copilot does not know about it
@@ -171,17 +204,6 @@ Cut-Off Knowledge is 2021
 Extension Voice Command 
 
 Visual Studio Code Speech 
-
-
-
-
-
-
-
-
-
-
-
 
 
 
